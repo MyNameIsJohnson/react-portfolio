@@ -1,3 +1,3 @@
-# Preview can be seen here: [Portfolio](https://deploy-preview-1--johnsonthieu-portfolio.netlify.app/).
+# Preview can be seen here: [Portfolio](https://johnsonthieu-react-portfolio.netlify.app/).
 
 
