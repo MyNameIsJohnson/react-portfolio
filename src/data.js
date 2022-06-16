@@ -5,7 +5,7 @@ export const projects = [
     description:
       "This was my first project at General Assembly. I used HTML, CSS and Javascript to complete this project. Since then, I've learned new skills that I plan on updated this project with.",
     image: "./diceracer.gif",
-    link: "https://mynameisjohnson.github.io/Dice-Racers/",    
+    link: "https://mynameisjohnson.github.io/Dice-Racers/",
   },
   {
     title: "Club Hoppin'",
@@ -59,4 +59,7 @@ export const skills = [
   "Express",
   "Django",
   "CSS",
+  "Tailwind.css",
+  "Styled-Components",
+  "Typescript",
 ];
