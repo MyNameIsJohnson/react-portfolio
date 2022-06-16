@@ -31,6 +31,22 @@ export const projects = [
     image: "./tlm.gif",
     link: "https://thelastmile-replica.netlify.app/",
   },
+  {
+    title: "React Form Validation",
+    subtitle: "React",
+    description:
+      "I built this using React and custom hooks with useState. Custom CSS for the errors and basic styling.",
+    image: "https://media.giphy.com/media/GIPAj5OalS8TzP6FHZ/giphy.gif",
+    link: "https://mynameisjohnson.github.io/form-validation-with-custom-hook/",
+  },
+  {
+    title: "Multiple Choice Game",
+    subtitle: "React and Typescript",
+    description:
+      "The was my first time diving into Typescript and it was pretty awesome! I will definitely use it again in future project to become more proficient. Game is still work in progress with some features in mind for a better user experience.",
+    image: "https://media.giphy.com/media/jpUQxWRchQ82p0IS2D/giphy.gif",
+    link: "https://multiple-choice-game.netlify.app/",
+  },
 ];
 
 export const testimonials = [
