@@ -11,7 +11,7 @@ export const projects = [
     title: "Club Hoppin'",
     subtitle: "Python, MongoDb and Express",
     description:
-      "For this porject, I used Python, MongoDb and Express.js. This was a fun project that I worked on the frontend and collaborated on the completing the backend.",
+      "For this project, I used Python, MongoDb and Express.js. This was a fun project that I worked on the frontend and collaborated on the completing the backend.",
     image: "./clubhoppin.gif",
     link: "https://clubhoppin.herokuapp.com/",
   },
