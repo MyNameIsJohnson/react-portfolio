@@ -11,7 +11,6 @@ const buttonStyle = {
   flexDirection: "row",
   alignItems: "flexEnd",
   justifyContent: "center",
-  justifyContent: "center",
   alignItems: "center",
 };
 
@@ -24,7 +23,8 @@ const Resume = () => {
             Resume
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Here is my up-to-date downloadable resume.{" "}
+            Here is my up-to-date downloadable resume.
+            <br />
             <b> Looking forward to hearing from you! </b>
           </p>
         </div>
