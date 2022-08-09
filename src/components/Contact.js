@@ -38,6 +38,7 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
+            // src="https://www.google.com/maps/embed/v1/place?q=san+francisco&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26448.37450233551!2d-118.01022750592243!3d34.04267025892855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2d663130cea49%3A0x7b51299ddd7a69d5!2sCity%20of%20Industry%2C%20CA%2091746!5e0!3m2!1sen!2sus!4v1655828499964!5m2!1sen!2sus"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
@@ -62,7 +63,7 @@ export default function Contact() {
           </div>
         </div>
         <form
-          netlify="true"
+          netlify
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
