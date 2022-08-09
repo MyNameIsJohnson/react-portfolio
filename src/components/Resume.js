@@ -11,7 +11,6 @@ const buttonStyle = {
   flexDirection: "row",
   alignItems: "flexEnd",
   justifyContent: "center",
-  alignItems: "center",
 };
 
 const Resume = () => {
@@ -20,10 +19,10 @@ const Resume = () => {
       <div className="lg:container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-            Resume
+            R&eacute;sum&eacute;
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Here is my up-to-date downloadable resume.
+            Here is my up-to-date downloadable r&eacute;sum&eacute;.
             <br />
             <b> Looking forward to hearing from you! </b>
           </p>
@@ -40,7 +39,9 @@ const Resume = () => {
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
             style={buttonStyle}
           >
-            <p style={{ paddingRight: "10px" }}>Download Resume</p>
+            <p style={{ paddingRight: "10px" }}>
+              Download R&eacute;sum&eacute;
+            </p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
