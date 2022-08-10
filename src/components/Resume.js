@@ -34,7 +34,8 @@ const Resume = () => {
           <Page pageIndex={0} />
         </Document>
         <a
-          href="https://drive.google.com/file/d/1eKzfh-f-MAfRwCPiDRFhAnVYgo0JpsnP/view?usp=sharing"
+          href={process.env.PUBLIC_URL + "/resume.pdf"}
+          download
           target="_blank"
           rel="noreferrer noopener"
         >

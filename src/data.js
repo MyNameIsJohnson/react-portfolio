@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "HTML, CSS, Javascript Stack",
     description:
       "This was my first project at General Assembly. I used HTML, CSS and Javascript to complete this project. Since then, I've learned new skills that I plan on updated this project with.",
-    image: "./diceracer.gif",
+    image: `${process.env.PUBLIC_URL}` + "/diceracer.gif",
     link: "https://mynameisjohnson.github.io/Dice-Racers/",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "Python, MongoDb and Express",
     description:
       "For this project, I used Python, MongoDb and Express.js. This was a fun project that I worked on the frontend and collaborated on the completing the backend.",
-    image: "./clubhoppin.gif",
+    image: `${process.env.PUBLIC_URL}` + "/clubhoppin.gif",
     link: "https://clubhoppin.herokuapp.com/",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "Python and Django",
     description:
       "Built using HTML, CSS and Javascript, Python, Django that allows the user to create a profile, catch pikachus, and purchase poffins to catch pikachus.",
-    image: "./pikatsume.gif",
+    image: `${process.env.PUBLIC_URL}` + "/pikatsume.gif",
     link: "https://pikatsume.herokuapp.com/",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "React",
     description:
       "This was built using React and grid layout. This was intended to replicate an existing website to highlight my React and CSS skills.",
-    image: "./tlm.gif",
+    image: `${process.env.PUBLIC_URL}` + "/tlm.gif",
     link: "https://thelastmile-replica.netlify.app/",
   },
   {

@@ -46,7 +46,7 @@ export default function About() {
           <img
             className="w-64 m-auto object-cover object-center rounded"
             alt="hero"
-            src={"./headshot.jpeg"}
+            src={process.env.PUBLIC_URL + "/headshot.jpeg"}
           />
         </div>
       </div>
