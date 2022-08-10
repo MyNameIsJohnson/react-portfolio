@@ -28,7 +28,7 @@ const Resume = () => {
           </p>
         </div>
         <Document
-          file={process.env.PUBLIC_URL + "./resume.pdf"}
+          file={process.env.PUBLIC_URL + "/resume.pdf"}
           onLoadError={console.error}
         >
           <Page pageIndex={0} />
