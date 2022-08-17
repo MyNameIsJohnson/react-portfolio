@@ -15,14 +15,14 @@ export const projects = [
     image: `${process.env.PUBLIC_URL}` + "/clubhoppin.gif",
     link: "https://clubhoppin.herokuapp.com/",
   },
-  {
-    title: "Pikatsume",
-    subtitle: "Python and Django",
-    description:
-      "Built using HTML, CSS and Javascript, Python, Django that allows the user to create a profile, catch pikachus, and purchase poffins to catch pikachus.",
-    image: `${process.env.PUBLIC_URL}` + "/pikatsume.gif",
-    link: "https://pikatsume.herokuapp.com/",
-  },
+  // {
+  //   title: "Pikatsume",
+  //   subtitle: "Python and Django",
+  //   description:
+  //     "Built using HTML, CSS and Javascript, Python, Django that allows the user to create a profile, catch pikachus, and purchase poffins to catch pikachus.",
+  //   image: `${process.env.PUBLIC_URL}` + "/pikatsume.gif",
+  //   link: "https://pikatsume.herokuapp.com/",
+  // },
   {
     title: "TLM Replica",
     subtitle: "React",
