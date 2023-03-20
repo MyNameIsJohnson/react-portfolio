@@ -1,25 +1,22 @@
-export const abouts = [
-  {
-    greeting: "Hi! I'm Johnson",
-    intro:
-      "I am a Full-Stack Software Engineer, and would love to work with you!",
-    about:
-      "I love problem solving and am a lifelong learner. I am always looking for new ways to solve problems more efficiently in order to optimize my code. When I use products, I tend to look for things that could be implemented to make the user experience better and transfer that knowledge to my projects. I know when to research tools or libraries to use for certain designs and features of my projects, which keeps me up to date with new technology. Having worked on teams of developers, and owning different features, I can stay on track with any of my projects codebase.",
-    whatImGoodAt:
-      " I enjoy coding with Javascript, HTML, CSS, Node, Express, Python, Django, MongoDB and libraries such as React, jQuery and Bootstrap technologies. My Version Control go to is Github. I am a Proactive leader, Coordinated and Organized. I am Structured and can delegate with humility for completing any shared task.",
-  },
-];
+export const abouts = {
+  greeting: "Hi! I'm Johnson",
+  intro:
+    "I am a Full-Stack Software Engineer, and would love to work with you!",
+  about:
+    "I love problem solving and am a lifelong learner. I am always looking for new ways to solve problems more efficiently in order to optimize my code. When I use products, I tend to look for things that could be implemented to make the user experience better and transfer that knowledge to my projects. I know when to research tools or libraries to use for certain designs and features of my projects, which keeps me up to date with new technology. Having worked on teams of developers, and owning different features, I can stay on track with any of my projects codebase.",
+  whatImGoodAt:
+    " I enjoy coding with Javascript, HTML, CSS, Node, Express, Python, Django, MongoDB and libraries such as React, jQuery and Bootstrap technologies. My Version Control go to is Github. I am a Proactive leader, Coordinated and Organized. I am Structured and can delegate with humility for completing any shared task.",
+};
 
-export const contactData = [
-  {
-    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55471.74965623349!2d-95.76104806026906!3d29.662228397724004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e0002d00c67d%3A0x1091d2428c525759!2sRichmond%2C%20TX%2077407!5e0!3m2!1sen!2sus!4v1677888569424!5m2!1sen!2sus",
-    address: "Richmond, TX 77407",
-    email: "johnsonthieu83@gmail.com",
-    phone: "(626)346-4095",
-    intro:
-      "I am ready to consult with you regarding your website needs. Reach out to me with your available dates and times you'd like a consultation. First hour is on me!",
-  },
-];
+export const contact = {
+  map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55471.74965623349!2d-95.76104806026906!3d29.662228397724004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e0002d00c67d%3A0x1091d2428c525759!2sRichmond%2C%20TX%2077407!5e0!3m2!1sen!2sus!4v1677888569424!5m2!1sen!2sus",
+  address: "Richmond, TX 77407",
+  email: "johnsonthieu83@gmail.com",
+  phone: "(626)346-4095",
+  intro:
+    "I am ready to consult with you regarding your website needs. Reach out to me with your available dates and times you'd like a consultation. First hour is on me!",
+};
+
 export const projects = [
   {
     title: "DiceRacer",

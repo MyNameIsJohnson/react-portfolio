@@ -10,11 +10,15 @@ const UpSlideDiv = styled.div`
   animation: 1s ${slideInUpAnimation};
 `;
 
-export default function Projects() {
+export default function Projects({ pastWorkRef }) {
   const { ref, inView } = useInView();
 
   return (
-    <section id="projects" className="text-gray-400 bg-gray-900 body-font">
+    <section
+      id="projects"
+      className="text-gray-400 bg-gray-900 body-font"
+      ref={pastWorkRef}
+    >
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
@@ -25,9 +29,9 @@ export default function Projects() {
             These were projects I build using HTML, CSS and JavaScript.
           </p>
         </div>
-        <div ref={ref}>
+        <div ref={ref} className="relative z-10">
           {inView && (
-            <UpSlideDiv className="flex flex-wrap -m-2">
+            <div className="flex flex-wrap m-2 ">
               {projects.map((project) => (
                 <a
                   href={project.link}
@@ -52,7 +56,7 @@ export default function Projects() {
                   </div>
                 </a>
               ))}
-            </UpSlideDiv>
+            </div>
           )}
         </div>
       </div>
