@@ -8,6 +8,8 @@ import { useInView } from "react-intersection-observer";
 const slideInUpAnimation = keyframes`${slideInUp}`;
 const UpSlideDiv = styled.div`
   animation: 1s ${slideInUpAnimation};
+  position: relative;
+  z-index: 1;
 `;
 
 export default function Projects({ pastWorkRef }) {
@@ -29,9 +31,9 @@ export default function Projects({ pastWorkRef }) {
             These were projects I build using HTML, CSS and JavaScript.
           </p>
         </div>
-        <div ref={ref} className="relative z-10">
+        <div ref={ref} className="relative">
           {inView && (
-            <div className="flex flex-wrap m-2 ">
+            <UpSlideDiv className="flex flex-wrap m-2 ">
               {projects.map((project) => (
                 <a
                   href={project.link}
@@ -56,7 +58,7 @@ export default function Projects({ pastWorkRef }) {
                   </div>
                 </a>
               ))}
-            </div>
+            </UpSlideDiv>
           )}
         </div>
       </div>

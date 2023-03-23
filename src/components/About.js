@@ -50,18 +50,11 @@ const BouncyDiv = styled.div`
 const About = () => {
   return (
     <section id="about">
-      <div className=" mx-auto flex px-10 py-20 lg:flex-row md:flex-col sm:flex-col items-center">
-        <div className="lg:flex-grow  lg:pr-24 md:w-100 md:flex flex-col md:items-bottom md:text-justify sm:text-2xl mb-16 items-center text-center">
+      <div className=" mx-auto flex xs:px-1 md:px-10 lg:py-20 lg:flex-row md:flex-col sm:flex-col items-center">
+        <div className="lg:flex-grow md:w-100 md:flex flex-col md:items-bottom md:text-justify sm:text-2xl mb-16 items-center text-center">
           <BouncyDiv className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             <h1 className="typewriter">{abouts.greeting}</h1>
           </BouncyDiv>
-          <RightSlideDiv className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 xs:w-1/4 xs:m-auto xs:mt-4">
-            <img
-              className="w-64 m-auto object-cover object-center rounded"
-              alt="hero"
-              src={process.env.PUBLIC_URL + "/headshot.jpeg"}
-            />
-          </RightSlideDiv>
           <RightSlideDiv className="mb-8 mt-8 leading-relaxed">
             {abouts.intro}
           </RightSlideDiv>
@@ -76,19 +69,19 @@ const About = () => {
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg xs:text-sm"
             >
               Work With Me
             </a>
             <a
               href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg xs:text-sm"
             >
               See My Past Work
             </a>
             <a
               href="#resume"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg xs:text-sm"
             >
               R&eacute;sum&eacute;
             </a>

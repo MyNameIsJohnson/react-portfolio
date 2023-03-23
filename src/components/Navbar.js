@@ -16,7 +16,7 @@ export default function Navbar({ pastWorkRef, skillsRef }) {
   };
   return (
     <>
-      <header className="hidden bg-gray-800 md:block sticky top-0 z-20">
+      <header className="hidden bg-gray-800 md:block sticky z-50 top-0 ">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <div className="title-font font-medium text-white mb-4 md:mb-0">
             <a href="#about" className="ml-3 text-xl">
@@ -43,7 +43,7 @@ export default function Navbar({ pastWorkRef, skillsRef }) {
           </a>
         </div>
       </header>
-      <div className="md:hidden block sticky top-0">
+      <nav className="md:hidden block xs:sticky z-50 top-0">
         <div className="flex justify-between w-100 bg-gray-800 cursor-pointer">
           <div
             className="mx-3 my-4 text-2xl text-slate-900 hover:text-slate-700 transition"
@@ -65,7 +65,7 @@ export default function Navbar({ pastWorkRef, skillsRef }) {
         </div>
 
         <div className={toggleMenu ? "" : "hidden"}>
-          <div className="grid grid-cols-1 bg-gray-800 cursor-pointer absolute">
+          <div className="grid grid-cols-1 bg-gray-800 cursor-pointer sticky">
             <div
               className="mx-3 my-5 text-white hover:text-slate-700 transition"
               onClick={() => {
@@ -85,7 +85,7 @@ export default function Navbar({ pastWorkRef, skillsRef }) {
             {/* <div className='mx-3 my-5 text-slate-900 hover:text-slate-700 transition' onClick={() => executeScroll(portfolioRef)}>Portfolio</div> */}
           </div>
         </div>
-      </div>
+      </nav>
     </>
   );
 }

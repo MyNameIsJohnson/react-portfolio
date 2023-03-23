@@ -51,16 +51,21 @@ const Contact = () => {
               </h2>
               <p className="mt-1">{contact.address}</p>
             </div>
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+            {/* <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed">{contact.email}</a>
+              <a
+                href={contact.email}
+                className="text-indigo-400 leading-relaxed"
+              >
+                {contact.email}
+              </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
               <p className="leading-relaxed">{contact.phone}</p>
-            </div>
+            </div> */}
           </div>
         </div>
         <form
