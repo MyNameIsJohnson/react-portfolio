@@ -28,6 +28,12 @@ const Resume = () => {
           </p>
         </div>
 
+        {/* <Document
+          file={process.env.PUBLIC_URL + "/Johnson_Thieu_Resume.pdf"}
+          onLoadError={console.error}
+        >
+          <Page pageIndex={0} className="resume-pdf" />
+        </Document> */}
         <a
           href={process.env.PUBLIC_URL + "/Johnson_Thieu_Resume.pdf"}
           download

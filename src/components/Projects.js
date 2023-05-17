@@ -18,7 +18,7 @@ export default function Projects({ pastWorkRef }) {
   return (
     <section
       id="projects"
-      className="text-gray-400 bg-gray-900 body-font"
+      className="text-gray-400 bg-gray-900 body-font z-10"
       ref={pastWorkRef}
     >
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
