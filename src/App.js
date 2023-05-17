@@ -13,17 +13,19 @@ export default function App() {
   const homeRef = useRef(null);
 
   return (
-    <main className="text-gray-400 bg-gray-900 body-font relative">
+    <>
       <Navbar
         homeRef={homeRef}
         pastWorkRef={pastWorkRef}
         skillsRef={skillsRef}
       />
-      <About homeRef={homeRef} />
-      <Projects pastWorkRef={pastWorkRef} />
-      <Skills skillsRef={skillsRef} />
-      <Contact />
-      <Resume />
-    </main>
+      <main className="text-gray-400 bg-gray-900 body-font relative">
+        <About homeRef={homeRef} />
+        <Projects pastWorkRef={pastWorkRef} />
+        <Skills skillsRef={skillsRef} />
+        <Contact />
+        <Resume />
+      </main>
+    </>
   );
 }

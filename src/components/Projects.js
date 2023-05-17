@@ -18,7 +18,7 @@ export default function Projects({ pastWorkRef }) {
   return (
     <section
       id="projects"
-      className="text-gray-400 bg-gray-900 body-font"
+      className="text-gray-400 bg-gray-900 body-font z-10"
       ref={pastWorkRef}
     >
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -43,7 +43,7 @@ export default function Projects({ pastWorkRef }) {
                   <div className="flex relative demo">
                     <img
                       alt="gallery"
-                      className="absolute inset-0 w-full h-80 object-cover object-center"
+                      className="absolute inset-0 w-full h-80 object-center"
                       src={project.image}
                     />
                     <div className="h-80 px-8 py-10 relative w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100 ">
