@@ -4,7 +4,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
-import Resume from "./components/Resume";
+// import Resume from "./components/Resume";
 import Skills from "./components/Skills";
 
 export default function App() {
@@ -24,7 +24,7 @@ export default function App() {
         <Projects pastWorkRef={pastWorkRef} />
         <Skills skillsRef={skillsRef} />
         <Contact />
-        <Resume />
+        // <Resume />
       </main>
     </>
   );
